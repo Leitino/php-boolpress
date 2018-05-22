@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #eeeeee;
+}
+.float-left{
+  float: left;
+}
+.posts{
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  transition: 0.7s;
+  border: 3px solid white;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.posts:hover{
+  background-color:#ffa3a0;
+}
+.data-post{
+  font-size: 0.6em;
+}
+.ancore{
+  text-decoration: none;
+}
+.postContainer{
+  padding: 10px;
+}
+.postContainer_img{
+  width: 30%;
+}
+.postContainer_img img {
+  width: 100%;
+}
+.postContainer_content{
+  padding: 10px;
+  width: 70%;
+}
