@@ -6,8 +6,9 @@
     <title></title>
   </head>
   <body>
-    
+
     <?php include 'data.php' ?>
+    <?php include 'data-comments.php' ?>
 
     <?php
     $slug = $_GET['slug'];
